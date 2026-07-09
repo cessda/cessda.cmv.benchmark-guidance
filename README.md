@@ -1,7 +1,4 @@
-# CESSDA Documentation Template
-
-This repository is a template repository that can be forked to easily start creating documentation using [CESSDA's
-Just The Docs theme](https://bitbucket.org/cessda/cessda.documentation.theme).
+# CESSDA Benchmark Guidance
 
 See <https://docs.tech.cessda.eu/platform/documentation_tooling.html> for detailed documentation on how to use this repository,
 as well as descriptions on what the files in this repository do.
