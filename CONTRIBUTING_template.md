@@ -1,6 +1,6 @@
-# Contributing to [CESSDA XYZ] -- TEMPLATE! ADOPT BEFORE USE
+# Contributing to CESSDA Benchmark Guidance
 
-Thank you for considering contributing to [CESSDA XYZ].
+Thank you for considering contributing to this repository.
 
 Please note that we welcome all forms of user feedback and are generally open to many forms of collaboration,
 but please read this document carefully before proceeding.
