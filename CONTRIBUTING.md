@@ -1,4 +1,4 @@
-# Contributing to CESSDA Benchmark Guidance
+# Contributing to CESSDA FAIR Benchmark Guidance
 
 Thank you for considering contributing to this repository.
 

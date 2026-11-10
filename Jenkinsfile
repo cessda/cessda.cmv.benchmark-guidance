@@ -19,7 +19,7 @@ pipeline {
 	}
 
 	environment {
-		productName = 'changeme' // Set this to the name of the product this repository is documenting, i.e. ELSST, CVS, CDC...
+		productName = 'cmv-benchmark' // The name of the product this repository documents (used in the Docker image name)
 		componentName = 'documentation' // Can be customised if necessary
 		imageTag = "${docker_repo}/${productName}-${componentName}:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
 	}

@@ -1,4 +1,4 @@
-# CESSDA Benchmark Guidance
+# CESSDA FAIR Benchmark Guidance
 
 See <https://docs.tech.cessda.eu/platform/documentation_tooling.html> for detailed documentation on how to use this repository,
 as well as descriptions on what the files in this repository do.
