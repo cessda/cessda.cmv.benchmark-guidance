@@ -1,6 +1,6 @@
 ---
 title: How to pass Persistent Identifier Schema Validation (F1, pid)
-parent: TODO
+parent: CESSDA FAIR Benchmark Guidance
 has_children: false
 is_hidden: false
 nav_order: 010

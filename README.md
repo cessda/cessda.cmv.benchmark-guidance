@@ -62,6 +62,4 @@ The home page is *index.md*
 
 Create child and grandchild pages as required, to organise the document into sections and sub-sections.
 
-Search for the word `TODO` to see places where the name of your Product should be inserted.
-
 Use *document-navigation-structure.md* to keep track of the navigation structure.
