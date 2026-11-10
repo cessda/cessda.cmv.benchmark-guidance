@@ -9,12 +9,39 @@ The documentation is written in markdown files and compiled to html using [Jekyl
 with the [CESSDA theme](https://rubygems.org/gems/jekyll-cessda-docs) based on the
 [Just the docs](https://github.com/pmarsceill/just-the-docs) theme.
 
-To get started locally, make sure to [have Ruby installed](https://jekyllrb.com/docs/installation/), then run
+## Getting started
+
+Requires Ruby 3.1 or later (the CI image uses 3.1.1) and [Bundler](https://bundler.io/).
+The Ruby that ships with macOS is too old; [install a current one](https://jekyllrb.com/docs/installation/),
+for example with Homebrew (`brew install ruby`).
 
 ```shell
+git clone https://github.com/cessda/cessda.cmv.benchmark-guidance.git
+cd cessda.cmv.benchmark-guidance
 gem install jekyll bundler
 bundle install
-bundle exec jekyll serve --config _config.yml,_devsettings.yml
+```
+
+Build the site into the `_site/` directory:
+
+```shell
+bundle exec jekyll build
+```
+
+Or serve it with automatic rebuilds, then open <http://localhost:4000>:
+
+```shell
+bundle exec jekyll serve
+```
+
+Sass deprecation warnings from the theme during the build are expected and can be ignored.
+
+To run the same checks as CI:
+
+```shell
+bundle exec rake lint
+bundle exec jekyll build
+bundle exec rake htmlproofer
 ```
 
 ## Development
