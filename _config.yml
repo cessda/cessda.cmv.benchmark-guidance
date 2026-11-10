@@ -8,6 +8,15 @@ baseurl: /
 theme: jekyll-cessda-docs
 search_enabled: true
 
+# The jekyll-cessda-docs theme uses Sass features that Dart Sass has deprecated (@import, darken(), map-get()),
+# which produces hundreds of warnings on every build. They come from the theme, not this repository.
+# Remove this once the theme has been updated.
+sass:
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+
 defaults:
  -
   scope:
