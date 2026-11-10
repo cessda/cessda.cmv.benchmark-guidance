@@ -11,7 +11,7 @@ The indentation is intended to indicate major sections, subsections and sub-subs
 
 ```none
 (000) TODO (index.md)
-  (010) Something (something.md)
+  (010) How to pass Persistent Identifier Schema Validation (pid.md)
   (020) Everything (everything.md)
     (021) Everything else (everything-else.md)
   (030) Nothing (nothing.md)
