@@ -12,4 +12,8 @@ The indentation is intended to indicate major sections, subsections and sub-subs
 ```none
 (000) CESSDA FAIR Benchmark Guidance (index.md)
   (010) How to pass Persistent Identifier Schema Validation (pid.md)
+  (020) How to pass Globally Unique Identifier Validation (guid.md)
+  (030) How to pass Structured Metadata Validation (structured-metadata.md)
+  (040) How to pass Grounded Metadata Validation (grounded-metadata.md)
+  (050) How to pass Searchable Metadata Validation (searchable.md)
 ```
