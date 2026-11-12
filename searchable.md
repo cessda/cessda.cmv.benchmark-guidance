@@ -26,7 +26,6 @@ To pass this test there needs to be:
 1. The OAI-PMH response (envelope) must be correctly formed
 1. The OAI-PMH record element must have header with an identifier
 
-
 ## How
 
 The XML snippets and XPaths below apply to all OAI-PMH records, regardless of DDI Codebook version.
@@ -35,11 +34,12 @@ DDI is embedded within the OAI-PMH envelope.
 ### XML example of an OAI-PMH record
 
 ```xml
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"> 
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
 [...]
 <record>
 <header>
-<identifier>c63266b0a9ba9924b5a8f9b2b98e1570e90bf14d1646e04cab23d147082a4a4c</identifier> 
+<identifier>c63266b0a9ba9924b5a8f9b2b98e1570e90bf14d1646e04cab23d147082a4a4c</identifier>
 [...]
 </header>
 <metadata>

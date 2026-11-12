@@ -27,10 +27,9 @@ To pass this test there needs to be:
 1. The contents of the namespace declaration include either "ddi:codebook:2_5" for DDI Codebook 2.5
    or "ddi:codebook:2_6" for DDI Codebook 2.6
 
-
 ## How
 
-The XML snippets below are provided separately for DDI Codebook 2.5 and 2.6. The XPath apply to both.
+The XML snippets below are provided separately for DDI Codebook 2.5 and 2.6. The XPaths apply to both.
 
 ### XML example for DDI Codebook 2.5
 
